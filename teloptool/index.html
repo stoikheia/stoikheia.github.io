@@ -1,0 +1,114 @@
+
+<html>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Simple Telop</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- APP Souces -->
+<link rel="stylesheet" type="text/css" src="./style.css">
+<script type="text/javascript" src="./main.js"></script>
+<body>
+<div id="output-outline">
+  <div id="output-text">テキストtext1</div>
+</div>
+
+<div id="container" class="">
+  <div id="input-wrapper" class="row">
+  
+  <div id="input-left-pane" class="col-sm-8">
+  <div id="input-left-panel" class="panel panel-default">
+  
+    <div class="panel-heading">
+      表示するテキスト入力欄（改行区切り）
+    </div>
+
+    <div id="input-text-outline" class="panel-body">
+      <div class="input-element">
+        <button id="input-button-text-ok" type="button" class="btn btn-primary btn-block">OK</button>
+      </div>
+    
+      <div class="input-element">
+        <textarea id="input-text">テキストtext1
+テキストtext2</textarea>
+      </div>
+    </div>
+    
+  </div><!-- input-left-panel -->
+  </div><!-- input-left-pane -->
+    
+  <div id="input-right-pane" class="col-sm-4">
+  
+    <div id="input-right-panel" class="panel panel-default">
+    <div class="panel-heading">
+    設定
+    </div>
+    
+    <!-- テロップ選択ボックス BEGIN -->
+    <div id="select-telop-type-outline" class="panel-body">
+      <div class="dropdown">
+	      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+		テロップのタイプ
+		      <span class="caret"></span>
+	      </button>
+	      <ul id="select-telop-type-ul" class="dropdown-menu" role="menu">
+	      </ul>
+        <span>:</span>
+        <span id="selected-telop-type-text"></span>
+      </div><!-- dropdown -->
+    </div>
+    <!-- テロップ選択ボックス END -->
+    
+    <div id="input-common" class="panel-body">
+  
+    <div class="input-element">
+      <p>文字色：</p>
+      <input id="input-color" >
+    </div>
+    
+    <div class="input-element">
+      <p>背景色：</p>
+      <input id="input-bg-color">
+    </div>
+
+    <div class="input-element">
+      <p>横幅：</p>
+      <input id="input-width">px
+    </div>
+
+    <div class="input-element">
+      <p>縦幅：</p>
+      <input id="input-height">px
+    </div>
+    
+    <div class="input-element">
+      <p>FPS：</p>
+      <input id="input-fps">fps(最大30)
+    </div>
+    
+    <div class="input-element">
+      <p>フォントサイズ：</p>
+      <input id="input-font-size">px
+    </div>
+    
+    </div><!-- input-common -->
+    
+    <div id="input-extra-params" class="panel-body">
+      <!-- テロップタイプ個別の設定が追加される -->
+    </div>
+  </div><!-- input-right-pane -->
+  </div><!-- row -->
+</div>
+</body>
+</html>
