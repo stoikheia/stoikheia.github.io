@@ -1,9 +1,9 @@
-@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css");
 
 body {
   padding-top: 50px;
   margin: 0px;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
 }
 
 [class="row"] {
