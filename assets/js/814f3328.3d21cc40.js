@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkSrcGithubPages=self.webpackChunkSrcGithubPages||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9\u30e2\u30cb\u30bf\u30ea\u30f3\u30b0","permalink":"/blog/diary"}]}')}}]);
