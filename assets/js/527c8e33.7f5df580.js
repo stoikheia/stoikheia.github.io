@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkSrcGithubPages=self.webpackChunkSrcGithubPages||[]).push([[795],{245:function(a){a.exports=JSON.parse('{"label":"database","permalink":"/blog/tags/database","allTagsPath":"/blog/tags","count":1}')}}]);
